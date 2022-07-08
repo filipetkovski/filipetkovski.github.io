@@ -101,7 +101,7 @@
         font-size: 1.2em;
     }
     .contact-left:hover a {
-        font-size: 1.6em;
+        font-size: 1.3em;
     }
 }
 
@@ -139,9 +139,6 @@
     .contact-right p {
         font-size: 0.9em;
         width: 370px;
-    }
-    .contact-left:hover a {
-        font-size: 1.5em;
     }
 }
 
@@ -213,7 +210,7 @@
         width: 220px;
     }
     .contact-left:hover a {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 }
 
@@ -241,6 +238,6 @@
         width: 215px;
     }
     .contact-left:hover a {
-        font-size: 0.9em;
+        font-size: 0.6em;
     }
 }
