@@ -91,9 +91,6 @@
         width: 450px;
         height: 200px;
     }
-    .contact-left a:hover {
-        font-size: 1.3em;
-    }
     .contact-left p {
         font-size: 1.2em;
         margin-bottom: 30px;
@@ -145,7 +142,7 @@
         width: 370px;
     }
     .contact-left:hover a {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 }
 
@@ -172,9 +169,6 @@
     .contact-left a {
         font-size: 1em;
     }
-    .contact-left a:hover {
-        font-size: 1.1em;
-    }
     .contact-right h3 {
         font-size: 1.6em;
         width: 150px;
@@ -184,7 +178,7 @@
         width: 340px;
     }
     .contact-left:hover a {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 }
 
@@ -211,9 +205,6 @@
     .contact-left a {
         font-size: 0.6em;
     }
-    .contact-left a:hover {
-        font-size: 0.7em;
-    }
     .contact-right h3 {
         font-size: 1.3em;
         width: 125px;
@@ -223,7 +214,7 @@
         width: 220px;
     }
     .contact-left:hover a {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
@@ -242,9 +233,6 @@
     .contact-left a {
         font-size: 0.5em;
     }
-    .contact-left a:hover {
-        font-size: 0.6em;
-    }
     .contact-right h3 {
         font-size: 1.2em;
         width: 115px;
@@ -254,6 +242,6 @@
         width: 215px;
     }
     .contact-left:hover a {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 }
