@@ -20,7 +20,6 @@
 }
 
 .contact-left:hover a {
-    transform: translateY(10px);
     font-size: 1.6em;
     padding-bottom: 5px;
     color: orange;
