@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family:Arial, sans-serif;
+
+    background-image: url(../Images/background1.jpeg);
+    background-position-x: 10%;
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0;
+}
+
+::-webkit-scrollbar-track {
+    background: #1c1d24;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ce8500;
+    border-radius: 20px;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+@media (max-width: 700px) {
+    body {
+        background-position-x: 20%;
+    }
+}
+
+@media (min-width: 1600px) {
+    body {
+        background-size: contain;
+    }
+}

@@ -1,0 +1,124 @@
+#home {
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#home h1 {
+    color: white;
+    text-shadow: 2px 2px 20px black;
+    margin: 0 0 0 100px;
+
+    font-size: 4em;
+
+    transition: 0.5s;
+}
+
+#home h1:nth-of-type(3) {
+    color: orange;
+}
+
+.scroll {
+     position: absolute;
+     bottom: 20px;
+     left: 20px;
+     right: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+.scroll a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 200;
+    padding: 15px 20px;
+    transition: 0.5s;
+}
+
+.scr:hover {
+    letter-spacing: 5px;
+    color: #ce8500;
+    background-color: white;
+}
+
+.social-media {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fb, .insta, .linkedin, .twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.fb:hover, .insta:hover, .linkedin:hover, .twitter:hover {
+    border-radius: 100px;
+    transform: translateY(-10px);
+    color: #ce8500;
+    background-color: white;
+}
+
+#home #social-menu {
+    position: absolute;
+}
+
+
+
+@media (max-width: 900px) {
+    .scroll > a {
+        display: none;
+    }
+    .scroll {
+        justify-content: center;
+    }
+    #home h1 {
+        font-size: 3.5em;
+        margin: 0 0 0 75px;
+    }
+}
+
+@media (max-width: 600px) {
+    .scroll > a {
+        display: none;
+    }
+    .scroll {
+        justify-content: center;
+    }
+    #home h1 {
+        font-size: 2.5em;
+        margin: 0 0 0 60px;
+    }
+}
+@media (max-width: 500px) {
+    .scroll > a {
+        display: none;
+    }
+    .scroll {
+        justify-content: center;
+    }
+    #home h1 {
+        margin: 0 0 0 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .scroll > a {
+        display: none;
+    }
+    .scroll {
+        justify-content: center;
+    }
+    #home h1 {
+        margin: 0 0 0 20px;
+    }
+}
