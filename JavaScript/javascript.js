@@ -1,4 +1,4 @@
-//Hambuer Menu
+//Hamburger Menu
 function hamburgerClick() {
     const nav = document.querySelector(".menu-list");
     const navbar = document.querySelector(".menu-list ul");
@@ -31,10 +31,10 @@ function closeHamburger() {
 //Scrolling portfolio
 
 function openAll() {
-    const all = document.querySelector(".java-scrolling__all");
-    const projects = document.querySelector(".java-scrolling__projects");
-    const social = document.querySelector(".java-scrolling__social");
-    const product = document.querySelector(".java-scrolling__product");
+    let all = document.querySelector(".java-scrolling__all");
+    let projects = document.querySelector(".java-scrolling__projects");
+    let social = document.querySelector(".java-scrolling__social");
+    let product = document.querySelector(".java-scrolling__product");
 
     const conall = document.querySelector(".container11");
     const conprojects = document.querySelector(".container22");
@@ -53,10 +53,10 @@ function openAll() {
 }
 
 function openProject() {
-    const all = document.querySelector(".java-scrolling__all");
-    const projects = document.querySelector(".java-scrolling__projects");
-    const social = document.querySelector(".java-scrolling__social");
-    const product = document.querySelector(".java-scrolling__product");
+    let all = document.querySelector(".java-scrolling__all");
+    let projects = document.querySelector(".java-scrolling__projects");
+    let social = document.querySelector(".java-scrolling__social");
+    let product = document.querySelector(".java-scrolling__product");
 
     const conall = document.querySelector(".container11");
     const conprojects = document.querySelector(".container22");
@@ -76,10 +76,10 @@ function openProject() {
 }
 
 function openSocial() {
-    const all = document.querySelector(".java-scrolling__all");
-    const projects = document.querySelector(".java-scrolling__projects");
-    const social = document.querySelector(".java-scrolling__social");
-    const product = document.querySelector(".java-scrolling__product");
+    let all = document.querySelector(".java-scrolling__all");
+    let projects = document.querySelector(".java-scrolling__projects");
+    let social = document.querySelector(".java-scrolling__social");
+    let product = document.querySelector(".java-scrolling__product");
 
     const conall = document.querySelector(".container11");
     const conprojects = document.querySelector(".container22");
@@ -99,10 +99,10 @@ function openSocial() {
 }
 
 function openProduct() {
-    const all = document.querySelector(".java-scrolling__all");
-    const projects = document.querySelector(".java-scrolling__projects");
-    const social = document.querySelector(".java-scrolling__social");
-    const product = document.querySelector(".java-scrolling__product");
+    let all = document.querySelector(".java-scrolling__all");
+    let projects = document.querySelector(".java-scrolling__projects");
+    let social = document.querySelector(".java-scrolling__social");
+    let product = document.querySelector(".java-scrolling__product");
 
     const conall = document.querySelector(".container11");
     const conprojects = document.querySelector(".container22");
@@ -152,7 +152,7 @@ function scrollr() {
     if(element>899 && element<1201) {
         value1 = (element-500);
     }
-    else if(element>701 && element<900) {
+    else if((element>701) && (element<900)) {
         value1 = (element-400);
     }
     else if(element>499 && element<700) {
